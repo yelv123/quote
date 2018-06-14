@@ -1,0 +1,32 @@
+{
+    "name": "yelv123/quote",
+    "description": "报价",
+    "type": "library",
+    "require": {
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "^6.3.2"
+    },
+    "require-dev": {
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "^6.3.2",
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "yelv123",
+            "email": "swustncgis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Quote\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Quote\\Tests\\": "tests/"
+        }
+    }
+}
